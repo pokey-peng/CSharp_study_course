@@ -20,5 +20,21 @@ namespace TxtWriter_test
             // 解码显示
             return Encoding.UTF8.GetString(buffer, 0, bytenum);
         }
+        public static bool Writer(string FileName, string text)
+        {
+            try
+            {
+                FileStream fileStream = new FileStream(FileName, FileMode.OpenOrCreate, FileAccess.Write);
+                byte[] buffer = Encoding.UTF8.GetBytes(text);
+                fileStream.Write(buffer, 0, buffer.Length);
+                fileStream.Close();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+           
+        }
     }
 }
