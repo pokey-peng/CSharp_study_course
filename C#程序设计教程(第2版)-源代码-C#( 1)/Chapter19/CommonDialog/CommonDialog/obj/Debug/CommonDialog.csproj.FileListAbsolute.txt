@@ -1,0 +1,8 @@
+C:\C#\Chapter19\CommonDialog\CommonDialog\bin\Debug\CommonDialog.exe.config
+C:\C#\Chapter19\CommonDialog\CommonDialog\bin\Debug\CommonDialog.exe
+C:\C#\Chapter19\CommonDialog\CommonDialog\bin\Debug\CommonDialog.pdb
+C:\C#\Chapter19\CommonDialog\CommonDialog\obj\Debug\CommonDialog.Form1.resources
+C:\C#\Chapter19\CommonDialog\CommonDialog\obj\Debug\CommonDialog.Properties.Resources.resources
+C:\C#\Chapter19\CommonDialog\CommonDialog\obj\Debug\CommonDialog.csproj.GenerateResource.Cache
+C:\C#\Chapter19\CommonDialog\CommonDialog\obj\Debug\CommonDialog.exe
+C:\C#\Chapter19\CommonDialog\CommonDialog\obj\Debug\CommonDialog.pdb

@@ -1,0 +1,13 @@
+C:\C#\Chapter20\Brush\Brush\bin\Debug\Brush.exe.config
+C:\C#\Chapter20\Brush\Brush\bin\Debug\Brush.exe
+C:\C#\Chapter20\Brush\Brush\bin\Debug\Brush.pdb
+C:\C#\Chapter20\Brush\Brush\obj\Debug\Brush.csprojResolveAssemblyReference.cache
+C:\C#\Chapter20\Brush\Brush\obj\Debug\MainWindow.baml
+C:\C#\Chapter20\Brush\Brush\obj\Debug\MainWindow.g.cs
+C:\C#\Chapter20\Brush\Brush\obj\Debug\App.g.cs
+C:\C#\Chapter20\Brush\Brush\obj\Debug\Brush_MarkupCompile.cache
+C:\C#\Chapter20\Brush\Brush\obj\Debug\Brush.g.resources
+C:\C#\Chapter20\Brush\Brush\obj\Debug\Brush.Properties.Resources.resources
+C:\C#\Chapter20\Brush\Brush\obj\Debug\Brush.csproj.GenerateResource.Cache
+C:\C#\Chapter20\Brush\Brush\obj\Debug\Brush.exe
+C:\C#\Chapter20\Brush\Brush\obj\Debug\Brush.pdb

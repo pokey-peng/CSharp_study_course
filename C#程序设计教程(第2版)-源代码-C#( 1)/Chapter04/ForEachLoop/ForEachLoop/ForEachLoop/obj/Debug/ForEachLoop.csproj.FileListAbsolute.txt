@@ -1,0 +1,5 @@
+C:\C#\Chapter04\ForEachLoop\ForEachLoop\ForEachLoop\bin\Debug\ForEachLoop.exe.config
+C:\C#\Chapter04\ForEachLoop\ForEachLoop\ForEachLoop\bin\Debug\ForEachLoop.exe
+C:\C#\Chapter04\ForEachLoop\ForEachLoop\ForEachLoop\bin\Debug\ForEachLoop.pdb
+C:\C#\Chapter04\ForEachLoop\ForEachLoop\ForEachLoop\obj\Debug\ForEachLoop.exe
+C:\C#\Chapter04\ForEachLoop\ForEachLoop\ForEachLoop\obj\Debug\ForEachLoop.pdb

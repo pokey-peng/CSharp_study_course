@@ -1,0 +1,9 @@
+C:\C#\Chapter19\TextBoxTest\TextBoxTest\bin\Debug\TextBoxTest.exe.config
+C:\C#\Chapter19\TextBoxTest\TextBoxTest\bin\Debug\TextBoxTest.exe
+C:\C#\Chapter19\TextBoxTest\TextBoxTest\bin\Debug\TextBoxTest.pdb
+C:\C#\Chapter19\TextBoxTest\TextBoxTest\obj\Debug\TextBoxTest.csprojResolveAssemblyReference.cache
+C:\C#\Chapter19\TextBoxTest\TextBoxTest\obj\Debug\TextBoxTest.Form1.resources
+C:\C#\Chapter19\TextBoxTest\TextBoxTest\obj\Debug\TextBoxTest.Properties.Resources.resources
+C:\C#\Chapter19\TextBoxTest\TextBoxTest\obj\Debug\TextBoxTest.csproj.GenerateResource.Cache
+C:\C#\Chapter19\TextBoxTest\TextBoxTest\obj\Debug\TextBoxTest.exe
+C:\C#\Chapter19\TextBoxTest\TextBoxTest\obj\Debug\TextBoxTest.pdb

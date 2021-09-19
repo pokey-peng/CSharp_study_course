@@ -1,0 +1,6 @@
+C:\C#\Chapter04\ExceptionThrowByCLR\ExceptionThrowByCLR\ExceptionThrowByCLR\bin\Debug\ExceptionThrowByCLR.exe.config
+C:\C#\Chapter04\ExceptionThrowByCLR\ExceptionThrowByCLR\ExceptionThrowByCLR\bin\Debug\ExceptionThrowByCLR.exe
+C:\C#\Chapter04\ExceptionThrowByCLR\ExceptionThrowByCLR\ExceptionThrowByCLR\bin\Debug\ExceptionThrowByCLR.pdb
+C:\C#\Chapter04\ExceptionThrowByCLR\ExceptionThrowByCLR\ExceptionThrowByCLR\obj\Debug\ExceptionThrowByCLR.csprojResolveAssemblyReference.cache
+C:\C#\Chapter04\ExceptionThrowByCLR\ExceptionThrowByCLR\ExceptionThrowByCLR\obj\Debug\ExceptionThrowByCLR.exe
+C:\C#\Chapter04\ExceptionThrowByCLR\ExceptionThrowByCLR\ExceptionThrowByCLR\obj\Debug\ExceptionThrowByCLR.pdb

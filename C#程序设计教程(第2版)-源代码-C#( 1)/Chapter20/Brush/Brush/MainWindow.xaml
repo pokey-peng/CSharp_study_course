@@ -1,0 +1,86 @@
+﻿<Window x:Class="Brush.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="300" Width="500">
+    <StackPanel Orientation="Horizontal">
+        <!--使用纯色（SolidColorBrush）绘制矩形-->
+        <Rectangle Width="75" Height="75">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="Red" />
+            </Rectangle.Fill>
+        </Rectangle>
+        <!--使用水平线性渐变（LinearGradientBrush）绘制矩形-->
+        <Rectangle Width="75" Height="75">
+            <Rectangle.Fill>
+                <LinearGradientBrush>
+                    <GradientStop Color="Yellow" Offset="0.0" />
+                    <GradientStop Color="Orange" Offset="0.5" />
+                    <GradientStop Color="Red" Offset="1.0" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <!--使用径向渐变（RadialGradientBrush）绘制矩形-->
+        <Rectangle Width="75" Height="75">
+            <Rectangle.Fill>
+                <RadialGradientBrush GradientOrigin="0.75,0.25">
+                    <GradientStop Color="Yellow" Offset="0.0" />
+                    <GradientStop Color="Orange" Offset="0.5" />
+                    <GradientStop Color="Red" Offset="1.0" />
+                </RadialGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <!--使用图像（ImageBrush）绘制矩形-->
+        <Rectangle Width="75" Height="75">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="C:\C#\jpg\sunset.jpg"  />
+            </Rectangle.Fill>
+        </Rectangle>
+        <!--使用绘图（DrawingBrush）绘制矩形-->
+        <Rectangle Width="75" Height="75">
+            <Rectangle.Fill>
+                <DrawingBrush>
+                    <DrawingBrush.Drawing>
+                        <GeometryDrawing Brush="Black">
+                            <GeometryDrawing.Geometry>
+                                <EllipseGeometry Center="50,50" RadiusX="45" RadiusY="20" />
+                            </GeometryDrawing.Geometry>
+                        </GeometryDrawing>
+                    </DrawingBrush.Drawing>
+                </DrawingBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <!--使用Visual（VisualBrush）绘制矩形-->
+        <Rectangle Width="75" Height="75">
+            <Rectangle.Fill>
+                <VisualBrush TileMode="Tile">
+                    <VisualBrush.Visual>
+                        <StackPanel>
+                            <StackPanel.Background>
+                                <DrawingBrush>
+                                    <DrawingBrush.Drawing>
+                                        <GeometryDrawing>
+                                            <GeometryDrawing.Brush>
+                                                <RadialGradientBrush>
+                                                    <GradientStop Color="MediumBlue" Offset="0.0" />
+                                                    <GradientStop Color="White" Offset="1.0" />
+                                                </RadialGradientBrush>
+                                            </GeometryDrawing.Brush>
+                                            <GeometryDrawing.Geometry>
+                                                <GeometryGroup>
+                                                    <RectangleGeometry Rect="0,0,50,50" />
+                                                    <RectangleGeometry Rect="50,50,50,50" />
+                                                </GeometryGroup>
+                                            </GeometryDrawing.Geometry>
+                                        </GeometryDrawing>
+                                    </DrawingBrush.Drawing>
+                                </DrawingBrush>
+                            </StackPanel.Background>
+                            <TextBlock FontSize="10pt" Margin="10">Hello, World!</TextBlock>
+                        </StackPanel>
+                    </VisualBrush.Visual>
+                </VisualBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+    </StackPanel>
+</Window>
+

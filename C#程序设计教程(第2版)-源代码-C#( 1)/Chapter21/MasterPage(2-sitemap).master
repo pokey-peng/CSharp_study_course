@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+                    <table border="1">
+            <tr>
+                <td>
+                    <asp:Image ID="ImageLogo" runat="server" Height="100px" 
+                              Width="100px" ImageUrl="~/images/log.jpg" />
+                </td>
+                <td>
+                    <asp:Label ID="lblMainTitle" runat="server" Text="欢迎光临花鸟网站" 
+                              Font-Bold="True" Font-Size="36pt"></asp:Label>
+                    <br />
+                    <br />
+                    <asp:Label ID="lblSubTitle" runat="server" Font-Size="18pt" 
+                              Text="花香世界，动物天地"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br />
+                    <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1">
+                    </asp:TreeView>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                </td>
+                <td>
+                    <asp:ContentPlaceHolder ID="CPHItemText" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <br />
+                    <asp:ContentPlaceHolder ID="CPHItemPicture" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    版权所有。
+                   <asp:HyperLink ID="hlToAdmin" runat="server" 
+                              NavigateUrl="admin@flowerbird.com">网站管理员
+                   </asp:HyperLink>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

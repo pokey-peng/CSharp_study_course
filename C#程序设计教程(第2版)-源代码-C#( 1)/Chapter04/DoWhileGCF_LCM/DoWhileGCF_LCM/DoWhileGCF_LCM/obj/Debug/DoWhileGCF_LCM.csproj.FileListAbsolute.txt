@@ -1,0 +1,5 @@
+C:\C#\Chapter04\DoWhileGCF_LCM\DoWhileGCF_LCM\DoWhileGCF_LCM\bin\Debug\DoWhileGCF_LCM.exe.config
+C:\C#\Chapter04\DoWhileGCF_LCM\DoWhileGCF_LCM\DoWhileGCF_LCM\bin\Debug\DoWhileGCF_LCM.exe
+C:\C#\Chapter04\DoWhileGCF_LCM\DoWhileGCF_LCM\DoWhileGCF_LCM\bin\Debug\DoWhileGCF_LCM.pdb
+C:\C#\Chapter04\DoWhileGCF_LCM\DoWhileGCF_LCM\DoWhileGCF_LCM\obj\Debug\DoWhileGCF_LCM.exe
+C:\C#\Chapter04\DoWhileGCF_LCM\DoWhileGCF_LCM\DoWhileGCF_LCM\obj\Debug\DoWhileGCF_LCM.pdb

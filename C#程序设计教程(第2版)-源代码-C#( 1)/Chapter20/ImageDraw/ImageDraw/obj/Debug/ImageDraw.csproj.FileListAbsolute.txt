@@ -1,0 +1,12 @@
+C:\C#\Chapter20\ImageDraw\ImageDraw\bin\Debug\ImageDraw.exe.config
+C:\C#\Chapter20\ImageDraw\ImageDraw\bin\Debug\ImageDraw.exe
+C:\C#\Chapter20\ImageDraw\ImageDraw\bin\Debug\ImageDraw.pdb
+C:\C#\Chapter20\ImageDraw\ImageDraw\obj\Debug\MainWindow.baml
+C:\C#\Chapter20\ImageDraw\ImageDraw\obj\Debug\MainWindow.g.cs
+C:\C#\Chapter20\ImageDraw\ImageDraw\obj\Debug\App.g.cs
+C:\C#\Chapter20\ImageDraw\ImageDraw\obj\Debug\ImageDraw_MarkupCompile.cache
+C:\C#\Chapter20\ImageDraw\ImageDraw\obj\Debug\ImageDraw.g.resources
+C:\C#\Chapter20\ImageDraw\ImageDraw\obj\Debug\ImageDraw.Properties.Resources.resources
+C:\C#\Chapter20\ImageDraw\ImageDraw\obj\Debug\ImageDraw.csproj.GenerateResource.Cache
+C:\C#\Chapter20\ImageDraw\ImageDraw\obj\Debug\ImageDraw.exe
+C:\C#\Chapter20\ImageDraw\ImageDraw\obj\Debug\ImageDraw.pdb

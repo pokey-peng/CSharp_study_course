@@ -1,0 +1,5 @@
+coloumns: 600
+lines: 600
+bands: 7
+datatype: 1
+interleave: bsq

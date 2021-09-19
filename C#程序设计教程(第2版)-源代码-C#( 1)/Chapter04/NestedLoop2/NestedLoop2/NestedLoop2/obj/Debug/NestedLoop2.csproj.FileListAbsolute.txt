@@ -1,0 +1,5 @@
+C:\C#\Chapter04\NestedLoop2\NestedLoop2\NestedLoop2\bin\Debug\NestedLoop2.exe.config
+C:\C#\Chapter04\NestedLoop2\NestedLoop2\NestedLoop2\bin\Debug\NestedLoop2.exe
+C:\C#\Chapter04\NestedLoop2\NestedLoop2\NestedLoop2\bin\Debug\NestedLoop2.pdb
+C:\C#\Chapter04\NestedLoop2\NestedLoop2\NestedLoop2\obj\Debug\NestedLoop2.exe
+C:\C#\Chapter04\NestedLoop2\NestedLoop2\NestedLoop2\obj\Debug\NestedLoop2.pdb

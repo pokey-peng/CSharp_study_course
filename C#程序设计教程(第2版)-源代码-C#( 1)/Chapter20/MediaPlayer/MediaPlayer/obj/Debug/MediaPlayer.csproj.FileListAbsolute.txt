@@ -1,0 +1,12 @@
+C:\C#\Chapter20\MediaPlayer\MediaPlayer\bin\Debug\MediaPlayer.exe.config
+C:\C#\Chapter20\MediaPlayer\MediaPlayer\bin\Debug\MediaPlayer.exe
+C:\C#\Chapter20\MediaPlayer\MediaPlayer\bin\Debug\MediaPlayer.pdb
+C:\C#\Chapter20\MediaPlayer\MediaPlayer\obj\Debug\MainWindow.baml
+C:\C#\Chapter20\MediaPlayer\MediaPlayer\obj\Debug\MainWindow.g.cs
+C:\C#\Chapter20\MediaPlayer\MediaPlayer\obj\Debug\App.g.cs
+C:\C#\Chapter20\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer_MarkupCompile.cache
+C:\C#\Chapter20\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.g.resources
+C:\C#\Chapter20\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.Properties.Resources.resources
+C:\C#\Chapter20\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
+C:\C#\Chapter20\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.exe
+C:\C#\Chapter20\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.pdb

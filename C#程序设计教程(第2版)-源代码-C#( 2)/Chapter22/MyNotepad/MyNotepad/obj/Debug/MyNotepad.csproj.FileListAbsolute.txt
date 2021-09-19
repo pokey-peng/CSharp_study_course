@@ -1,0 +1,10 @@
+C:\C#\Chapter22\MyNotepad\MyNotepad\bin\Debug\MyNotepad.exe.config
+C:\C#\Chapter22\MyNotepad\MyNotepad\bin\Debug\MyNotepad.exe
+C:\C#\Chapter22\MyNotepad\MyNotepad\bin\Debug\MyNotepad.pdb
+C:\C#\Chapter22\MyNotepad\MyNotepad\obj\Debug\MyNotepad.csprojResolveAssemblyReference.cache
+C:\C#\Chapter22\MyNotepad\MyNotepad\obj\Debug\MyNotepad.Properties.Resources.resources
+C:\C#\Chapter22\MyNotepad\MyNotepad\obj\Debug\MyNotepad.csproj.GenerateResource.Cache
+C:\C#\Chapter22\MyNotepad\MyNotepad\obj\Debug\MyNotepad.exe
+C:\C#\Chapter22\MyNotepad\MyNotepad\obj\Debug\MyNotepad.pdb
+C:\C#\Chapter22\MyNotepad\MyNotepad\obj\Debug\MyNotepad.FormMain.resources
+C:\C#\Chapter22\MyNotepad\MyNotepad\obj\Debug\MyNotepad.FormNote.resources

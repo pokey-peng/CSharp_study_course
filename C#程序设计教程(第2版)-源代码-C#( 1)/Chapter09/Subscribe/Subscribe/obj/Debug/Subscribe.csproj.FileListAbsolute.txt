@@ -1,0 +1,6 @@
+C:\C#\Chapter09\Subscribe\Subscribe\bin\Debug\Subscribe.exe.config
+C:\C#\Chapter09\Subscribe\Subscribe\obj\Debug\Subscribe.csprojResolveAssemblyReference.cache
+C:\C#\Chapter09\Subscribe\Subscribe\bin\Debug\Subscribe.exe
+C:\C#\Chapter09\Subscribe\Subscribe\bin\Debug\Subscribe.pdb
+C:\C#\Chapter09\Subscribe\Subscribe\obj\Debug\Subscribe.exe
+C:\C#\Chapter09\Subscribe\Subscribe\obj\Debug\Subscribe.pdb

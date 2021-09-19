@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+    protected void btnSearch_Click(object sender, EventArgs e)
+    {
+        //跳转到书籍信息查询页面SearchResults.aspx页面
+        //并将“txtKeyword”查找文本框中输入的查找字符串作为参数传递给书籍信息查询页面
+        if (txtKeyword.Text.Trim().Length > 0) //去空格后（Trim()）长度大于0
+        {
+            string url = "~/SearchResults.aspx?Keyword=%" + txtKeyword.Text + "%";
+            Response.Redirect(url);
+        }
+    }
+
+    protected void LoginView1_LoggingOut(object sender, LoginCancelEventArgs e)
+    {
+        Context.GetOwinContext().Authentication.SignOut();
+    }
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table border="1"  style="text-align: center;" >
+            <tr>
+                <td style="width: 250px">
+                    <asp:HyperLink ID="hlHome" runat="server" Font-Size="20pt" NavigateUrl="~/Default.aspx">计算机书店</asp:HyperLink>
+                </td>
+                <td style="width: 750px">
+                    <asp:LoginView runat="server" ViewStateMode="Disabled" ID="LoginView1">
+                        <AnonymousTemplate>
+                            <a runat="server" href="~/Account/Login">登录</a>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <a runat="server" href="~/Account/Manage" title="Manage your account"><%: Context.User.Identity.GetUserName()  %>!</a>
+                            <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="注销" LogoutPageUrl="~/" OnLoggingOut="LoginView1_LoggingOut" />
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                    &nbsp;
+                    <asp:HyperLink ID="hlCart" runat="server" NavigateUrl="~/pages/Cart.aspx">购物车</asp:HyperLink>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <asp:TextBox ID="txtKeyword" runat="server"></asp:TextBox>
+                    <asp:Button ID="btnSearch" runat="server" Text="查找" OnClick="btnSearch_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td style=" text-align: left; vertical-align: top">
+                     <asp:DataList ID="DataList1" runat="server" CellPadding="4" 
+                        ForeColor="#333333" DataSourceID="SqlDataSource1">
+                        <AlternatingItemStyle BackColor="White" />
+                        <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                        <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                        <ItemStyle BackColor="#EFF3FB" />
+                        <ItemTemplate>
+                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# "~/Bookslist.aspx?CategoryID=" + Eval("CategoryID") %>'
+                                Text='<%# Eval("CategoryName") %>'></asp:HyperLink>
+                        </ItemTemplate>
+                        <SelectedItemStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                    </asp:DataList>
+                     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [CategoryID], [CategoryName] FROM [Categories]"></asp:SqlDataSource>
+                </td>
+                <td style="text-align: left; vertical-align: top">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\C#\Chapter07\ThisTest\ThisTest\bin\Debug\ThisTest.exe.config
+C:\C#\Chapter07\ThisTest\ThisTest\bin\Debug\ThisTest.exe
+C:\C#\Chapter07\ThisTest\ThisTest\bin\Debug\ThisTest.pdb
+C:\C#\Chapter07\ThisTest\ThisTest\obj\Debug\ThisTest.exe
+C:\C#\Chapter07\ThisTest\ThisTest\obj\Debug\ThisTest.pdb

@@ -1,0 +1,5 @@
+C:\C#\Chapter04\Goto\Goto\Goto\bin\Debug\Goto.exe.config
+C:\C#\Chapter04\Goto\Goto\Goto\bin\Debug\Goto.exe
+C:\C#\Chapter04\Goto\Goto\Goto\bin\Debug\Goto.pdb
+C:\C#\Chapter04\Goto\Goto\Goto\obj\Debug\Goto.exe
+C:\C#\Chapter04\Goto\Goto\Goto\obj\Debug\Goto.pdb

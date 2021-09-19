@@ -1,0 +1,15 @@
+ENVI
+description = {
+  Create New File Result [Thu Nov 10 14:38:50 2005]}
+samples = 600
+lines   = 600
+bands   = 7
+header offset = 0
+file type = ENVI Standard
+data type = 1
+interleave = bsq
+sensor type = Landsat TM
+byte order = 0
+wavelength units = Unknown
+pixel size = {3.00000000e+001, 3.00000000e+001, units=Meters}
+default stretch = equalize

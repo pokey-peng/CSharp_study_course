@@ -1,0 +1,13 @@
+C:\C#\Chapter20\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\C#\Chapter20\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\C#\Chapter20\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\C#\Chapter20\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\C#\Chapter20\HelloWorld\HelloWorld\obj\Debug\MainWindow.baml
+C:\C#\Chapter20\HelloWorld\HelloWorld\obj\Debug\MainWindow.g.cs
+C:\C#\Chapter20\HelloWorld\HelloWorld\obj\Debug\App.g.cs
+C:\C#\Chapter20\HelloWorld\HelloWorld\obj\Debug\HelloWorld_MarkupCompile.cache
+C:\C#\Chapter20\HelloWorld\HelloWorld\obj\Debug\HelloWorld.g.resources
+C:\C#\Chapter20\HelloWorld\HelloWorld\obj\Debug\HelloWorld.Properties.Resources.resources
+C:\C#\Chapter20\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.Cache
+C:\C#\Chapter20\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\C#\Chapter20\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb

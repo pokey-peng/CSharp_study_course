@@ -1,0 +1,9 @@
+C:\C#\Chapter19\DrawPictures\DrawPictures\bin\Debug\DrawPictures.exe.config
+C:\C#\Chapter19\DrawPictures\DrawPictures\bin\Debug\DrawPictures.exe
+C:\C#\Chapter19\DrawPictures\DrawPictures\bin\Debug\DrawPictures.pdb
+C:\C#\Chapter19\DrawPictures\DrawPictures\obj\Debug\DrawPictures.csprojResolveAssemblyReference.cache
+C:\C#\Chapter19\DrawPictures\DrawPictures\obj\Debug\DrawPictures.Form1.resources
+C:\C#\Chapter19\DrawPictures\DrawPictures\obj\Debug\DrawPictures.Properties.Resources.resources
+C:\C#\Chapter19\DrawPictures\DrawPictures\obj\Debug\DrawPictures.csproj.GenerateResource.Cache
+C:\C#\Chapter19\DrawPictures\DrawPictures\obj\Debug\DrawPictures.exe
+C:\C#\Chapter19\DrawPictures\DrawPictures\obj\Debug\DrawPictures.pdb

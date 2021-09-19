@@ -1,0 +1,10 @@
+E:\360极速浏览器下载\Homework\C#程序设计\TxtWriter_test\bin\Debug\TxtWriter_test.exe.config
+E:\360极速浏览器下载\Homework\C#程序设计\TxtWriter_test\bin\Debug\TxtWriter_test.exe
+E:\360极速浏览器下载\Homework\C#程序设计\TxtWriter_test\bin\Debug\TxtWriter_test.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\TxtWriter_test\obj\Debug\TxtWriter_test.Form1.resources
+E:\360极速浏览器下载\Homework\C#程序设计\TxtWriter_test\obj\Debug\TxtWriter_test.Properties.Resources.resources
+E:\360极速浏览器下载\Homework\C#程序设计\TxtWriter_test\obj\Debug\TxtWriter_test.csproj.GenerateResource.cache
+E:\360极速浏览器下载\Homework\C#程序设计\TxtWriter_test\obj\Debug\TxtWriter_test.csproj.CoreCompileInputs.cache
+E:\360极速浏览器下载\Homework\C#程序设计\TxtWriter_test\obj\Debug\TxtWriter_test.exe
+E:\360极速浏览器下载\Homework\C#程序设计\TxtWriter_test\obj\Debug\TxtWriter_test.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\TxtWriter_test\obj\Debug\TxtWriter_test.csprojAssemblyReference.cache

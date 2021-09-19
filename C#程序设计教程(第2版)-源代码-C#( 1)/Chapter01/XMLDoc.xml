@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XMLDoc</name>
+    </assembly>
+    <members>
+        <member name="T:XMLDoc">
+            <summary>
+            XML注释文档示例。</summary>
+            <remarks>
+            本示例演示使用XML注释生成XML注释文档的
+            方法和过程 </remarks>
+        </member>
+        <member name="M:XMLDoc.SayHello(System.String)">
+            <summary>
+            在控制台窗口中显示欢迎信息。 </summary>
+            <param name="sName">sName：用户名字符串。</param>
+            <seealso cref="T:System.String">
+            请参见String。</seealso>
+        </member>
+        <member name="M:XMLDoc.Main(System.String[])">
+            <summary>
+            应用程序的入口点。
+            </summary>
+            <param name="args">用户名</param>
+        </member>
+    </members>
+</doc>

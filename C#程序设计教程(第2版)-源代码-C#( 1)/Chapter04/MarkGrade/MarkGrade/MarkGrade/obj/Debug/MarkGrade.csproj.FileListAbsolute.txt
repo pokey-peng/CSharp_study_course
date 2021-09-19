@@ -1,0 +1,6 @@
+C:\C#\Chapter04\MarkGrade\MarkGrade\MarkGrade\bin\Debug\MarkGrade.exe.config
+C:\C#\Chapter04\MarkGrade\MarkGrade\MarkGrade\bin\Debug\MarkGrade.exe
+C:\C#\Chapter04\MarkGrade\MarkGrade\MarkGrade\bin\Debug\MarkGrade.pdb
+C:\C#\Chapter04\MarkGrade\MarkGrade\MarkGrade\obj\Debug\MarkGrade.csprojResolveAssemblyReference.cache
+C:\C#\Chapter04\MarkGrade\MarkGrade\MarkGrade\obj\Debug\MarkGrade.exe
+C:\C#\Chapter04\MarkGrade\MarkGrade\MarkGrade\obj\Debug\MarkGrade.pdb

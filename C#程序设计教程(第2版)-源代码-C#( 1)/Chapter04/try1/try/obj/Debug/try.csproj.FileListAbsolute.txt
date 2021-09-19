@@ -1,0 +1,6 @@
+C:\C#\textbook\ch4\try\try\bin\Debug\@try.exe.config
+C:\C#\textbook\ch4\try\try\bin\Debug\@try.exe
+C:\C#\textbook\ch4\try\try\bin\Debug\@try.pdb
+C:\C#\textbook\ch4\try\try\obj\Debug\try.csprojResolveAssemblyReference.cache
+C:\C#\textbook\ch4\try\try\obj\Debug\@try.exe
+C:\C#\textbook\ch4\try\try\obj\Debug\@try.pdb

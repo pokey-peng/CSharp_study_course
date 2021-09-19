@@ -1,0 +1,22 @@
+﻿<Window x:Class="BitmapEffect.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="200" Width="300">
+    <Grid>
+        <Button Width="200" Height="80" Margin="50">
+            Bevelled Button
+            <Button.BitmapEffect>
+                <!-- BevelBitmapEffect类创建一个凹凸效果，
+                    该效果根据指定的曲线来抬高图像表面。其中：
+             - BevelWidth属性：获取或设置凹凸效果的宽度。
+             - EdgeProfile属性：获取或设置凹凸效果的曲线。
+             - LightAngle属性：获取或设置创建凹凸效果的阴影时，“虚拟光”的光源方向。
+             - Relief属性：获取或设置凹凸效果起伏的高度。
+             - Smoothness属性：获取或设置凹凸效果阴影的平滑程度。-->
+                <BevelBitmapEffect BevelWidth="15" EdgeProfile="BulgedUp"  
+LightAngle="320" Relief="0.4"  Smoothness="0.4" />
+            </Button.BitmapEffect>
+        </Button>
+    </Grid>
+</Window>
+

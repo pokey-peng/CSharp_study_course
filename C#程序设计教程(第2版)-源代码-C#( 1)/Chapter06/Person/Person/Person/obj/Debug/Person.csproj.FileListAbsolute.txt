@@ -1,0 +1,2 @@
+C:\C#\Chapter06\Person\Person\Person\bin\Debug\Person.exe.config
+C:\C#\Chapter06\Person\Person\Person\obj\Debug\Person.csprojResolveAssemblyReference.cache

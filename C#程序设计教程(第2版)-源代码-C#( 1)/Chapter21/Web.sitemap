@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="花鸟网站"  description="">
+    <siteMapNode title="花的世界"  description="">
+      <siteMapNode url="~\lily.aspx" title="百合"  description="" />
+      <siteMapNode url="~\lotus.aspx" title="荷花"  description="" />
+      <siteMapNode url="~\rose.aspx" title="玫瑰"  description="" />
+    </siteMapNode>
+    <siteMapNode title="鸟的天地"  description="">
+      <siteMapNode url="~\laverock.aspx" title="百灵"  description="" />
+      <siteMapNode url="~\peacock.aspx" title="孔雀"  description="" />
+      <siteMapNode url="~\parrot.aspx" title="鹦鹉"  description="" />
+    </siteMapNode>
+  </siteMapNode> 
+</siteMap>

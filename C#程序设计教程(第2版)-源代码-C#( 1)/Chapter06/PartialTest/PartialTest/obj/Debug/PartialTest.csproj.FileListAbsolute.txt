@@ -1,0 +1,1 @@
+C:\C#\Chapter06\PartialTest\PartialTest\bin\Debug\PartialTest.exe.config

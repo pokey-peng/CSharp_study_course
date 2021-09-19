@@ -1,0 +1,12 @@
+C:\C#\Chapter20\DrawTransform\DrawTransform\bin\Debug\DrawTransform.exe.config
+C:\C#\Chapter20\DrawTransform\DrawTransform\bin\Debug\DrawTransform.exe
+C:\C#\Chapter20\DrawTransform\DrawTransform\bin\Debug\DrawTransform.pdb
+C:\C#\Chapter20\DrawTransform\DrawTransform\obj\Debug\MainWindow.baml
+C:\C#\Chapter20\DrawTransform\DrawTransform\obj\Debug\MainWindow.g.cs
+C:\C#\Chapter20\DrawTransform\DrawTransform\obj\Debug\App.g.cs
+C:\C#\Chapter20\DrawTransform\DrawTransform\obj\Debug\DrawTransform_MarkupCompile.cache
+C:\C#\Chapter20\DrawTransform\DrawTransform\obj\Debug\DrawTransform.g.resources
+C:\C#\Chapter20\DrawTransform\DrawTransform\obj\Debug\DrawTransform.Properties.Resources.resources
+C:\C#\Chapter20\DrawTransform\DrawTransform\obj\Debug\DrawTransform.csproj.GenerateResource.Cache
+C:\C#\Chapter20\DrawTransform\DrawTransform\obj\Debug\DrawTransform.exe
+C:\C#\Chapter20\DrawTransform\DrawTransform\obj\Debug\DrawTransform.pdb

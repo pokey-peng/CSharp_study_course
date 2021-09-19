@@ -1,0 +1,12 @@
+C:\C#\Chapter20\Grid\Grid\bin\Debug\Grid.exe.config
+C:\C#\Chapter20\Grid\Grid\bin\Debug\Grid.exe
+C:\C#\Chapter20\Grid\Grid\bin\Debug\Grid.pdb
+C:\C#\Chapter20\Grid\Grid\obj\Debug\MainWindow.baml
+C:\C#\Chapter20\Grid\Grid\obj\Debug\MainWindow.g.cs
+C:\C#\Chapter20\Grid\Grid\obj\Debug\App.g.cs
+C:\C#\Chapter20\Grid\Grid\obj\Debug\Grid_MarkupCompile.cache
+C:\C#\Chapter20\Grid\Grid\obj\Debug\Grid.g.resources
+C:\C#\Chapter20\Grid\Grid\obj\Debug\Grid.Properties.Resources.resources
+C:\C#\Chapter20\Grid\Grid\obj\Debug\Grid.csproj.GenerateResource.Cache
+C:\C#\Chapter20\Grid\Grid\obj\Debug\Grid.exe
+C:\C#\Chapter20\Grid\Grid\obj\Debug\Grid.pdb

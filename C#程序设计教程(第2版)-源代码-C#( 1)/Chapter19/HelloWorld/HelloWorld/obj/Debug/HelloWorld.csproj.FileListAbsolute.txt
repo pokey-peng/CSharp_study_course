@@ -1,0 +1,9 @@
+C:\C#\Chapter19\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\C#\Chapter19\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\C#\Chapter19\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\C#\Chapter19\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\C#\Chapter19\HelloWorld\HelloWorld\obj\Debug\HelloWorld.Form1.resources
+C:\C#\Chapter19\HelloWorld\HelloWorld\obj\Debug\HelloWorld.Properties.Resources.resources
+C:\C#\Chapter19\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.Cache
+C:\C#\Chapter19\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\C#\Chapter19\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb

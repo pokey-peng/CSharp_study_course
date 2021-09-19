@@ -1,0 +1,5 @@
+C:\C#\Chapter04\CalE\CalE\CalE\bin\Debug\CalE.exe.config
+C:\C#\Chapter04\CalE\CalE\CalE\bin\Debug\CalE.exe
+C:\C#\Chapter04\CalE\CalE\CalE\bin\Debug\CalE.pdb
+C:\C#\Chapter04\CalE\CalE\CalE\obj\Debug\CalE.exe
+C:\C#\Chapter04\CalE\CalE\CalE\obj\Debug\CalE.pdb

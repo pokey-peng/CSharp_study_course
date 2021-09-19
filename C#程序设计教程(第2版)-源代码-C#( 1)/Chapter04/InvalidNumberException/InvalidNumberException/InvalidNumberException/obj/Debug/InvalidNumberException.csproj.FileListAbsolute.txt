@@ -1,0 +1,6 @@
+C:\C#\Chapter04\InvalidNumberException\InvalidNumberException\InvalidNumberException\bin\Debug\InvalidNumberException.exe.config
+C:\C#\Chapter04\InvalidNumberException\InvalidNumberException\InvalidNumberException\obj\Debug\InvalidNumberException.csprojResolveAssemblyReference.cache
+C:\C#\Chapter04\InvalidNumberException\InvalidNumberException\InvalidNumberException\bin\Debug\InvalidNumberException.exe
+C:\C#\Chapter04\InvalidNumberException\InvalidNumberException\InvalidNumberException\bin\Debug\InvalidNumberException.pdb
+C:\C#\Chapter04\InvalidNumberException\InvalidNumberException\InvalidNumberException\obj\Debug\InvalidNumberException.exe
+C:\C#\Chapter04\InvalidNumberException\InvalidNumberException\InvalidNumberException\obj\Debug\InvalidNumberException.pdb

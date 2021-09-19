@@ -1,0 +1,7 @@
+E:\360极速浏览器下载\Homework\C#程序设计\FileReader\bin\Debug\FileReader.exe.config
+E:\360极速浏览器下载\Homework\C#程序设计\FileReader\bin\Debug\FileReader.exe
+E:\360极速浏览器下载\Homework\C#程序设计\FileReader\bin\Debug\FileReader.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\FileReader\obj\Debug\FileReader.csprojAssemblyReference.cache
+E:\360极速浏览器下载\Homework\C#程序设计\FileReader\obj\Debug\FileReader.csproj.CoreCompileInputs.cache
+E:\360极速浏览器下载\Homework\C#程序设计\FileReader\obj\Debug\FileReader.exe
+E:\360极速浏览器下载\Homework\C#程序设计\FileReader\obj\Debug\FileReader.pdb

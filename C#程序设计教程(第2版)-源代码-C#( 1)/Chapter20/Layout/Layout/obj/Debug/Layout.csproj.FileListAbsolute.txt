@@ -1,0 +1,13 @@
+C:\C#\Chapter20\Layout\Layout\bin\Debug\Layout.exe.config
+C:\C#\Chapter20\Layout\Layout\bin\Debug\Layout.exe
+C:\C#\Chapter20\Layout\Layout\bin\Debug\Layout.pdb
+C:\C#\Chapter20\Layout\Layout\obj\Debug\MainWindow.baml
+C:\C#\Chapter20\Layout\Layout\obj\Debug\MainWindow.g.cs
+C:\C#\Chapter20\Layout\Layout\obj\Debug\App.g.cs
+C:\C#\Chapter20\Layout\Layout\obj\Debug\Layout_MarkupCompile.cache
+C:\C#\Chapter20\Layout\Layout\obj\Debug\Layout.g.resources
+C:\C#\Chapter20\Layout\Layout\obj\Debug\Layout.Properties.Resources.resources
+C:\C#\Chapter20\Layout\Layout\obj\Debug\Layout.csproj.GenerateResource.Cache
+C:\C#\Chapter20\Layout\Layout\obj\Debug\Layout.exe
+C:\C#\Chapter20\Layout\Layout\obj\Debug\Layout.pdb
+C:\C#\Chapter20\Layout\Layout\obj\Debug\Layout.csprojResolveAssemblyReference.cache

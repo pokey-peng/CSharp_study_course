@@ -1,0 +1,12 @@
+C:\C#\Chapter20\Animation\Animation\bin\Debug\Animation.exe.config
+C:\C#\Chapter20\Animation\Animation\bin\Debug\Animation.exe
+C:\C#\Chapter20\Animation\Animation\bin\Debug\Animation.pdb
+C:\C#\Chapter20\Animation\Animation\obj\Debug\MainWindow.baml
+C:\C#\Chapter20\Animation\Animation\obj\Debug\MainWindow.g.cs
+C:\C#\Chapter20\Animation\Animation\obj\Debug\App.g.cs
+C:\C#\Chapter20\Animation\Animation\obj\Debug\Animation_MarkupCompile.cache
+C:\C#\Chapter20\Animation\Animation\obj\Debug\Animation.g.resources
+C:\C#\Chapter20\Animation\Animation\obj\Debug\Animation.Properties.Resources.resources
+C:\C#\Chapter20\Animation\Animation\obj\Debug\Animation.csproj.GenerateResource.Cache
+C:\C#\Chapter20\Animation\Animation\obj\Debug\Animation.exe
+C:\C#\Chapter20\Animation\Animation\obj\Debug\Animation.pdb

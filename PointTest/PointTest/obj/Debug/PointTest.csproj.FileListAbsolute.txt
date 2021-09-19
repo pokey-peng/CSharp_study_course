@@ -1,0 +1,11 @@
+E:\课程教学\2014教学\上课课件\第一讲\Chapter01\PointTest\PointTest\bin\Debug\PointTest.exe.config
+E:\课程教学\2014教学\上课课件\第一讲\Chapter01\PointTest\PointTest\bin\Debug\PointTest.exe
+E:\课程教学\2014教学\上课课件\第一讲\Chapter01\PointTest\PointTest\bin\Debug\PointTest.pdb
+E:\课程教学\2014教学\上课课件\第一讲\Chapter01\PointTest\PointTest\obj\Debug\PointTest.exe
+E:\课程教学\2014教学\上课课件\第一讲\Chapter01\PointTest\PointTest\obj\Debug\PointTest.pdb
+E:\课程教学\2021教学\上课课件\第一讲\Chapter01\PointTest\PointTest\bin\Debug\PointTest.exe.config
+E:\课程教学\2021教学\上课课件\第一讲\Chapter01\PointTest\PointTest\obj\Debug\PointTest.exe
+E:\课程教学\2021教学\上课课件\第一讲\Chapter01\PointTest\PointTest\obj\Debug\PointTest.pdb
+E:\课程教学\2021教学\上课课件\第一讲\Chapter01\PointTest\PointTest\bin\Debug\PointTest.exe
+E:\课程教学\2021教学\上课课件\第一讲\Chapter01\PointTest\PointTest\bin\Debug\PointTest.pdb
+E:\课程教学\2021教学\上课课件\第一讲\Chapter01\PointTest\PointTest\obj\Debug\PointTest.csprojResolveAssemblyReference.cache

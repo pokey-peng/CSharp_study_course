@@ -1,0 +1,13 @@
+C:\C#\Chapter20\TextEditor\TextEditor\bin\Debug\TextEditor.exe.config
+C:\C#\Chapter20\TextEditor\TextEditor\obj\Debug\MainWindow.baml
+C:\C#\Chapter20\TextEditor\TextEditor\obj\Debug\MainWindow.g.cs
+C:\C#\Chapter20\TextEditor\TextEditor\obj\Debug\App.g.cs
+C:\C#\Chapter20\TextEditor\TextEditor\obj\Debug\TextEditor_MarkupCompile.cache
+C:\C#\Chapter20\TextEditor\TextEditor\obj\Debug\TextEditor.g.resources
+C:\C#\Chapter20\TextEditor\TextEditor\obj\Debug\TextEditor.Properties.Resources.resources
+C:\C#\Chapter20\TextEditor\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.Cache
+C:\C#\Chapter20\TextEditor\TextEditor\bin\Debug\TextEditor.exe
+C:\C#\Chapter20\TextEditor\TextEditor\bin\Debug\TextEditor.pdb
+C:\C#\Chapter20\TextEditor\TextEditor\obj\Debug\TextEditor.csprojResolveAssemblyReference.cache
+C:\C#\Chapter20\TextEditor\TextEditor\obj\Debug\TextEditor.exe
+C:\C#\Chapter20\TextEditor\TextEditor\obj\Debug\TextEditor.pdb
