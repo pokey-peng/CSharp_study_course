@@ -1,0 +1,9 @@
+E:\360极速浏览器下载\Homework\C#程序设计\LoginDAL\bin\Debug\LoginDAL.dll
+E:\360极速浏览器下载\Homework\C#程序设计\LoginDAL\bin\Debug\LoginDAL.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\LoginDAL\bin\Debug\LoginModel.dll
+E:\360极速浏览器下载\Homework\C#程序设计\LoginDAL\bin\Debug\LoginModel.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\LoginDAL\obj\Debug\LoginDAL.csprojAssemblyReference.cache
+E:\360极速浏览器下载\Homework\C#程序设计\LoginDAL\obj\Debug\LoginDAL.csproj.CoreCompileInputs.cache
+E:\360极速浏览器下载\Homework\C#程序设计\LoginDAL\obj\Debug\LoginDAL.csproj.CopyComplete
+E:\360极速浏览器下载\Homework\C#程序设计\LoginDAL\obj\Debug\LoginDAL.dll
+E:\360极速浏览器下载\Homework\C#程序设计\LoginDAL\obj\Debug\LoginDAL.pdb

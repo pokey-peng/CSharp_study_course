@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxtWriter_test", "TxtWriter_test.csproj", "{55798C1E-9B0B-4F96-A3D5-0F7A1F55AD36}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessaggeInput", "..\MessaggeInput\MessaggeInput.csproj", "{FAF6E25A-2C04-44AC-A69C-211BB5CFF528}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessaggeInput", "MessaggeInput.csproj", "{FAF6E25A-2C04-44AC-A69C-211BB5CFF528}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{55798C1E-9B0B-4F96-A3D5-0F7A1F55AD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55798C1E-9B0B-4F96-A3D5-0F7A1F55AD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55798C1E-9B0B-4F96-A3D5-0F7A1F55AD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55798C1E-9B0B-4F96-A3D5-0F7A1F55AD36}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FAF6E25A-2C04-44AC-A69C-211BB5CFF528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FAF6E25A-2C04-44AC-A69C-211BB5CFF528}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAF6E25A-2C04-44AC-A69C-211BB5CFF528}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -26,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2A5D92FC-8C9C-4194-BA80-55801927B150}
+		SolutionGuid = {031426D1-536A-46EA-A94D-D58AAF11F503}
 	EndGlobalSection
 EndGlobal

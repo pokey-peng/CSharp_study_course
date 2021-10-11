@@ -1,0 +1,17 @@
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\bin\Debug\StudentLoginSystem.exe.config
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\bin\Debug\StudentLoginSystem.exe
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\bin\Debug\StudentLoginSystem.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\bin\Debug\LoginBLL.dll
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\bin\Debug\LoginModel.dll
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\bin\Debug\LoginBLL.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\bin\Debug\LoginModel.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\obj\Debug\StudentLoginSystem.csprojAssemblyReference.cache
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\obj\Debug\StudentLoginSystem.LoginUI.resources
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\obj\Debug\StudentLoginSystem.Properties.Resources.resources
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\obj\Debug\StudentLoginSystem.csproj.GenerateResource.cache
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\obj\Debug\StudentLoginSystem.csproj.CoreCompileInputs.cache
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\obj\Debug\StudentLoginSystem.csproj.CopyComplete
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\obj\Debug\StudentLoginSystem.exe
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\obj\Debug\StudentLoginSystem.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\bin\Debug\LoginDAL.dll
+E:\360极速浏览器下载\Homework\C#程序设计\StudentLoginSystem\bin\Debug\LoginDAL.pdb

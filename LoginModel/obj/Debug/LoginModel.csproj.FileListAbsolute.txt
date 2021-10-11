@@ -1,0 +1,6 @@
+E:\360极速浏览器下载\Homework\C#程序设计\LoginModel\bin\Debug\LoginModel.dll
+E:\360极速浏览器下载\Homework\C#程序设计\LoginModel\bin\Debug\LoginModel.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\LoginModel\obj\Debug\LoginModel.csprojAssemblyReference.cache
+E:\360极速浏览器下载\Homework\C#程序设计\LoginModel\obj\Debug\LoginModel.csproj.CoreCompileInputs.cache
+E:\360极速浏览器下载\Homework\C#程序设计\LoginModel\obj\Debug\LoginModel.dll
+E:\360极速浏览器下载\Homework\C#程序设计\LoginModel\obj\Debug\LoginModel.pdb

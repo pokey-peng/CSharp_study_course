@@ -1,0 +1,10 @@
+E:\360极速浏览器下载\Homework\C#程序设计\MessaggeInput\bin\Debug\MessaggeInput.exe.config
+E:\360极速浏览器下载\Homework\C#程序设计\MessaggeInput\bin\Debug\MessaggeInput.exe
+E:\360极速浏览器下载\Homework\C#程序设计\MessaggeInput\bin\Debug\MessaggeInput.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\MessaggeInput\obj\Debug\MessaggeInput.csprojAssemblyReference.cache
+E:\360极速浏览器下载\Homework\C#程序设计\MessaggeInput\obj\Debug\MessaggeInput.Form1.resources
+E:\360极速浏览器下载\Homework\C#程序设计\MessaggeInput\obj\Debug\MessaggeInput.Properties.Resources.resources
+E:\360极速浏览器下载\Homework\C#程序设计\MessaggeInput\obj\Debug\MessaggeInput.csproj.GenerateResource.cache
+E:\360极速浏览器下载\Homework\C#程序设计\MessaggeInput\obj\Debug\MessaggeInput.csproj.CoreCompileInputs.cache
+E:\360极速浏览器下载\Homework\C#程序设计\MessaggeInput\obj\Debug\MessaggeInput.exe
+E:\360极速浏览器下载\Homework\C#程序设计\MessaggeInput\obj\Debug\MessaggeInput.pdb

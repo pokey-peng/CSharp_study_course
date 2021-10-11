@@ -1,0 +1,11 @@
+E:\360极速浏览器下载\Homework\C#程序设计\LoginBLL\bin\Debug\LoginBLL.dll
+E:\360极速浏览器下载\Homework\C#程序设计\LoginBLL\bin\Debug\LoginBLL.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\LoginBLL\bin\Debug\LoginDAL.dll
+E:\360极速浏览器下载\Homework\C#程序设计\LoginBLL\bin\Debug\LoginModel.dll
+E:\360极速浏览器下载\Homework\C#程序设计\LoginBLL\bin\Debug\LoginDAL.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\LoginBLL\bin\Debug\LoginModel.pdb
+E:\360极速浏览器下载\Homework\C#程序设计\LoginBLL\obj\Debug\LoginBLL.csprojAssemblyReference.cache
+E:\360极速浏览器下载\Homework\C#程序设计\LoginBLL\obj\Debug\LoginBLL.csproj.CoreCompileInputs.cache
+E:\360极速浏览器下载\Homework\C#程序设计\LoginBLL\obj\Debug\LoginBLL.csproj.CopyComplete
+E:\360极速浏览器下载\Homework\C#程序设计\LoginBLL\obj\Debug\LoginBLL.dll
+E:\360极速浏览器下载\Homework\C#程序设计\LoginBLL\obj\Debug\LoginBLL.pdb
