@@ -1,3 +1,5 @@
 ID,STUID,STUNAME,STUDPT,STUPWD,STUEMAIL
 1,10190447,彭棋,地理科学学院,qaz333125,gmail.com
 2,12121212,12,12,12,12@sa.com
+3,10190441,阎宇晨,地理科学学院,123456,gmail@pp.com
+4,10190434,ppl,地理科学学院,1234567,gg@pp.com
