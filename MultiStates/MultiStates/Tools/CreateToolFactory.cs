@@ -26,6 +26,7 @@ namespace MultiStates.Tools
                     return new DrawEllipse(p);
                 case 4:
                     return new DrawPolyline(p);
+
                 case 5:
                     return new DrawPolygon(p,false);
                 case 6:
