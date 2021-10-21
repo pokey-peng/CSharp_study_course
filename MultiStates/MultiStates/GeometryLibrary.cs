@@ -82,7 +82,7 @@ namespace MultiStates
     /// </summary>
     public class Polygon2D : Polyline2D
     {
-        private bool _fill;
+        //private bool _fill;
         public Polygon2D(Options p,bool f) : base(p) { _fill = f; }
         public override GeoType getGeoType() => GeoType.polygon;
         public override void draw(Graphics e)

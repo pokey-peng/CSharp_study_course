@@ -34,6 +34,11 @@ namespace MultiStates
         }
         
         public static int GetGeometryCount() => GeometrySet.Count;
+        public static void ClaerGeometry()
+        {
+            GeometrySet = null;
+            GeometrySet = new List<GeometryBase>();
+        }
         public static void Add_Geometry(GeometryBase gb) => GeometrySet.Add(gb);
         public static void Pop_Geometry() => GeometrySet.RemoveAt(GetGeometryCount() - 1);
     }

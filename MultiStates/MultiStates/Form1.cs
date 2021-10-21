@@ -20,20 +20,17 @@ namespace MultiStates
         private Options op = new Options()
         {
             penColor = Color.FromArgb(255, 0, 128, 0), // 画笔颜色
-            brushColor = Color.FromArgb(255, 0, 128, 0), // 画刷颜色
+            brushColor = Color.FromArgb(188, 0, 128, 0), // 画刷颜色
             penSize = 2 // 画笔大小
         };
         // 绘制工具
         private Tool _actionTool = null;
         private Tool actionTool
         {
-            get
-            {
-                return _actionTool == null ? new NoneTool(op) : _actionTool;
-            }
+            get => _actionTool ?? new NoneTool(op);
             set => _actionTool = value;
         }
-        private Graphics pb; 
+        private readonly Graphics pb; 
         public Form1()
         {
             
@@ -51,6 +48,8 @@ namespace MultiStates
             // 获取绘图方式
             Drawstyle=this.comboBox2.SelectedIndex;
             // 创建相应的图形绘制工具
+            
+            
             actionTool = CreateToolFactory.getDrawTool(Drawstyle,op);
 
         }
@@ -142,6 +141,19 @@ namespace MultiStates
                 MessageBox.Show("大小设置失败");
             }
             
+        }
+
+        private void ClearCanvas_Click(object sender, EventArgs e)
+        {
+            LayerService.ClaerGeometry();
+            pictureBox1.Invalidate();
+        }
+
+        private void ResetBtn_Click(object sender, EventArgs e)
+        {
+            op.penColor = Color.FromArgb(255, 0, 128, 0);
+            op.brushColor = Color.FromArgb(188, 0, 128, 0);
+            op.penSize = 2;
         }
     }
 }

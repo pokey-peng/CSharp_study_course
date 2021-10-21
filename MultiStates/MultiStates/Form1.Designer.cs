@@ -37,6 +37,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.ClearCanvas = new System.Windows.Forms.Button();
+            this.ResetBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -44,6 +46,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.ResetBtn);
+            this.groupBox1.Controls.Add(this.ClearCanvas);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.numericUpDown1);
             this.groupBox1.Controls.Add(this.BrushColor);
@@ -137,6 +141,26 @@
             this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
             this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
             // 
+            // ClearCanvas
+            // 
+            this.ClearCanvas.Location = new System.Drawing.Point(36, 291);
+            this.ClearCanvas.Name = "ClearCanvas";
+            this.ClearCanvas.Size = new System.Drawing.Size(51, 24);
+            this.ClearCanvas.TabIndex = 9;
+            this.ClearCanvas.Text = "清空";
+            this.ClearCanvas.UseVisualStyleBackColor = true;
+            this.ClearCanvas.Click += new System.EventHandler(this.ClearCanvas_Click);
+            // 
+            // ResetBtn
+            // 
+            this.ResetBtn.Location = new System.Drawing.Point(122, 291);
+            this.ResetBtn.Name = "ResetBtn";
+            this.ResetBtn.Size = new System.Drawing.Size(49, 24);
+            this.ResetBtn.TabIndex = 10;
+            this.ResetBtn.Text = "重置";
+            this.ResetBtn.UseVisualStyleBackColor = true;
+            this.ResetBtn.Click += new System.EventHandler(this.ResetBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -168,6 +192,8 @@
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Button ResetBtn;
+        private System.Windows.Forms.Button ClearCanvas;
     }
 }
 
