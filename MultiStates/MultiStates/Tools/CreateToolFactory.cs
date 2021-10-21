@@ -11,13 +11,13 @@ namespace MultiStates.Tools
 
     static class CreateToolFactory
     {
-        public enum DrawOperation { Line, Circle }
+        // 实例化相应绘制工具并返回
         public static Tool getDrawTool(int i,Options p)
         {
             switch (i)
             {
                 case 0:
-                    return new DrawLineTool(p);
+                    return new DrawTool(p);
                 case 1:
                     return new DrawCircle(p);
                 case 2:
@@ -26,13 +26,16 @@ namespace MultiStates.Tools
                     return new DrawEllipse(p);
                 case 4:
                     return new DrawPolyline(p);
-
                 case 5:
                     return new DrawPolygon(p,false);
                 case 6:
                     return new DrawPolygon(p,true);
+                case 7:
+                    return new DrawRectangle(p, true);
+                case 8:
+                    return new DrawCircle(p, true);
                 default:
-                    return new DrawLineTool(p);
+                    return new DrawTool(p);
             }
             
         }

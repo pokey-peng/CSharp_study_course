@@ -8,22 +8,29 @@ namespace MultiStates
 {
 
     public enum GeoType { unknow, point, line, polyline, polygon, rectangle, circle, arc ,Ellipse}
-
+    /// <summary>
+    /// 图形对象基类
+    /// </summary>
     public class GeometryBase
     {
         protected Pen g_Pen;
         protected SolidBrush g_Brush;
+        protected bool _fill = false;
         public GeometryBase(Options p) { InitOptions(p); }
-
+        public GeometryBase(Options p, bool f) { InitOptions(p); _fill = f; }
+        // 初始化样式信息
         private void InitOptions(Options ops)
         {
             g_Pen = new Pen(ops.penColor, ops.penSize);
             g_Brush = new SolidBrush(ops.brushColor);
         }
         public virtual GeoType getGeoType() => GeoType.unknow;
+        // 绘制图形
         public virtual void draw(Graphics e) { }
     }
-
+    /// <summary>
+    /// 点对象
+    /// </summary>
     public class Point2D : GeometryBase
     {
         public int x { get; set; }
@@ -44,24 +51,15 @@ namespace MultiStates
 
         }
     }
-    
+    /// <summary>
+    /// 折线对象
+    /// </summary>
     public class Polyline2D : GeometryBase
     {
         public Point this[int i]
         {
             set { pts[i] = value; }
             get { return pts[i]; }
-        }
-        public Point LastPoint
-        {
-            get
-            {
-                return pts[pts.Count() - 1];
-            }
-            set
-            {
-                pts[pts.Count() - 1] = value;
-            }
         }
         public Polyline2D(Options p):base(p) { }
         protected List<Point> pts = new List<Point> { };
@@ -79,7 +77,9 @@ namespace MultiStates
             }
         }
     }
-
+    /// <summary>
+    /// 多边形
+    /// </summary>
     public class Polygon2D : Polyline2D
     {
         private bool _fill;
@@ -102,13 +102,17 @@ namespace MultiStates
                 
         }
     }
-
+    /// <summary>
+    /// 圆弧
+    /// </summary>
     public class Arc2D : GeometryBase
     {
         public Arc2D(Options p) : base(p) { }
 
     }
-
+    /// <summary>
+    /// 椭圆
+    /// </summary>
     public class Ellipse2D : GeometryBase
     {
         public Point leftTop { protected get; set; }
@@ -122,38 +126,67 @@ namespace MultiStates
             e.DrawEllipse(g_Pen, leftTop.X, leftTop.Y, rightBottom.X - leftTop.X, rightBottom.Y - leftTop.Y);
         }
     }
-
+    /// <summary>
+    /// 圆
+    /// </summary>
     public class Circle2D : GeometryBase
     {
-        public  Point center { private get; set; }
-        private float r;
+        public Point center { private get; set; }
         public Point endPoint { get; set; }
-
+        private int leftX = 0, leftY = 0;
+        private int width = 0,height = 0;
         public Circle2D(Options p):base(p) { }
+        public Circle2D(Options p, bool f) : base(p, f) { }
         public override GeoType getGeoType() => GeoType.circle;
-        private float GetDistance(int x1, int x2, int y1, int y2)
+        private void GetXYdh()
         {
-            float radius = (float)Math.Sqrt((((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2))) * 1.0);
-            return radius;
+            int dx = Math.Abs(center.X - endPoint.X);
+            int dy = Math.Abs(center.Y - endPoint.Y);
+            int radius = (int)(Math.Sqrt(dx * dx + dy * dy));
+            width = radius + radius;
+            height = radius + radius;
+            leftX = center.X - radius;
+            leftY = center.Y - radius;
         }
         public override void draw(Graphics e)
         {
-            r = GetDistance(center.X, endPoint.X, center.Y, endPoint.Y);
-            e.DrawEllipse(g_Pen, center.X, center.Y, r, r);
+            GetXYdh();
+            e.DrawEllipse(g_Pen, leftX, leftY, width, height);
+            if (_fill)
+                e.FillEllipse(g_Brush, leftX, leftY, width, height);
         }
     }
-
+    /// <summary>
+    /// 矩形
+    /// </summary>
     public class Rectangle2D:GeometryBase
     {
         public Point leftTop { get; set; }
         public Point rightBottom { get; set; }
-        public Rectangle2D(Options p) : base(p) { }
+        private int leftX = 0;
+        private int leftY = 0;
+        private int width = 0, height = 0;
+        public Rectangle2D(Options p) : base(p) {  }
+        public Rectangle2D(Options p,bool f) : base(p,f) { }
+        private void ChangeLeftRight()
+        {
+            width = Math.Abs(leftTop.X - rightBottom.X);
+            height = Math.Abs(leftTop.Y - rightBottom.Y);
+            if (leftTop.X > rightBottom.X) { leftX = rightBottom.X; }
+            else { leftX = leftTop.X; }
+            if(leftTop.Y > rightBottom.Y) { leftY = rightBottom.Y; }
+            else { leftY = leftTop.Y; }
+        }
         public override void draw(Graphics e)
         {
             e.DrawLine(g_Pen, leftTop.X, leftTop.Y, rightBottom.X, leftTop.Y);
             e.DrawLine(g_Pen, rightBottom.X, leftTop.Y, rightBottom.X, rightBottom.Y);
             e.DrawLine(g_Pen, rightBottom.X, rightBottom.Y, leftTop.X, rightBottom.Y);
             e.DrawLine(g_Pen, leftTop.X, rightBottom.Y, leftTop.X, leftTop.Y);
+            if (_fill)
+                ChangeLeftRight();
+                e.FillRectangle(g_Brush,leftX, leftY, width,height);
+
         }
 
     }

@@ -7,18 +7,23 @@ using System.Windows.Forms;
 
 namespace MultiStates
 {
+    /// <summary>
+    /// 样式选项
+    /// </summary>
     public class Options
     {
         public Color penColor;
         public Color brushColor;
         public int penSize;
     }
+    /// <summary>
+    /// 用于存放图形对象的图层
+    /// </summary>
     public static class LayerService
     {
-        public static bool Rubber = false;
-        //public static Pen g_Pen = new Pen(Color.FromArgb(255, 0, 122, 0), 2);
+        // 存放图形对象
         private static List<GeometryBase> GeometrySet = new List<GeometryBase>();
-
+        // 绘制图层
         public static void DrawLayer(Graphics e)
         {
             if (GetGeometryCount() == 0) return;
@@ -26,7 +31,6 @@ namespace MultiStates
             {
                 gb.draw(e);
             }
-            //if (Rubber) Pop_Geometry();
         }
         
         public static int GetGeometryCount() => GeometrySet.Count;
