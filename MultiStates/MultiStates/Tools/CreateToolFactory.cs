@@ -17,7 +17,7 @@ namespace MultiStates.Tools
             switch (i)
             {
                 case 0:
-                    return new DrawTool(p);
+                    return new DrawLine(p);
                 case 1:
                     return new DrawCircle(p);
                 case 2:
@@ -35,7 +35,7 @@ namespace MultiStates.Tools
                 case 8:
                     return new DrawCircle(p, true);
                 default:
-                    return new DrawTool(p);
+                    return new DrawLine(p);
             }
             
         }

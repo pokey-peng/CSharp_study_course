@@ -12,13 +12,13 @@ namespace MultiStates.Tools
     /// <summary>
     /// 绘制直线
     /// </summary>
-    class DrawTool : AbstractTool
+    class DrawLine : AbstractTool
     {
         private Point _startPoint;
         private Point _endPoint;
         private Polyline2D _line;
         public bool _dragging = false;
-        public DrawTool(Options p) : base(p) {}
+        public DrawLine(Options p) : base(p) {}
         public override void onmousedown(MouseEventArgs e)
         {
             // 构造图形对象

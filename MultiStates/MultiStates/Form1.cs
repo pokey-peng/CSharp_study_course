@@ -135,6 +135,7 @@ namespace MultiStates
             try
             {
                 op.penSize = (int)numericUpDown1.Value;
+                _actionTool = CreateToolFactory.getDrawTool(Drawstyle, op);
             }
             catch
             {

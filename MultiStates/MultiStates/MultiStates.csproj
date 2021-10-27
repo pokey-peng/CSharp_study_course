@@ -58,7 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tools\AbstractTool.cs" />
     <Compile Include="Tools\CreateToolFactory.cs" />
-    <Compile Include="Tools\DrawTool.cs" />
+    <Compile Include="Tools\DrawLine.cs" />
     <Compile Include="Tools\NoneTool.cs" />
     <Compile Include="Tools\Tool.cs" />
     <EmbeddedResource Include="Form1.resx">

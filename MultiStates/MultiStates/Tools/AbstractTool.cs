@@ -18,7 +18,7 @@ namespace MultiStates.Tools
         /// <summary>
         /// 定义绘制的样式信息
         /// </summary>
-        protected Options ops = new Options();
+        protected Options ops;
         
         protected AbstractTool(Options p)
         {

@@ -12,15 +12,17 @@ namespace MultiStates
     /// </summary>
     public class Options
     {
-        public Color penColor;
-        public Color brushColor;
-        public int penSize;
+       
+        public Color penColor { get; set; }
+        public Color brushColor { get; set; }
+        public int penSize { get; set; }
     }
     /// <summary>
     /// 用于存放图形对象的图层
     /// </summary>
     public static class LayerService
     {
+
         // 存放图形对象
         private static List<GeometryBase> GeometrySet = new List<GeometryBase>();
         // 绘制图层
