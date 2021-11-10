@@ -28,6 +28,7 @@ namespace MultiStates.Tools
                 if (_dragging)
                 {
                     _endPoint = mouseDown;
+                    _line.Pop_Point();
                     _line.Add_Point(_endPoint);
                     LayerService.Add_Geometry(_line);
                     _dragging = false;

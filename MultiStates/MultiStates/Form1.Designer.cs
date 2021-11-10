@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ReadDataBase = new System.Windows.Forms.Button();
+            this.SaveToDataBase = new System.Windows.Forms.Button();
+            this.ResetBtn = new System.Windows.Forms.Button();
+            this.ClearCanvas = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.BrushColor = new System.Windows.Forms.Button();
@@ -37,8 +41,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.ClearCanvas = new System.Windows.Forms.Button();
-            this.ResetBtn = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -46,6 +52,12 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.ReadDataBase);
+            this.groupBox1.Controls.Add(this.SaveToDataBase);
             this.groupBox1.Controls.Add(this.ResetBtn);
             this.groupBox1.Controls.Add(this.ClearCanvas);
             this.groupBox1.Controls.Add(this.label1);
@@ -61,6 +73,46 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "设置";
+            // 
+            // ReadDataBase
+            // 
+            this.ReadDataBase.Location = new System.Drawing.Point(122, 354);
+            this.ReadDataBase.Name = "ReadDataBase";
+            this.ReadDataBase.Size = new System.Drawing.Size(49, 23);
+            this.ReadDataBase.TabIndex = 12;
+            this.ReadDataBase.Text = "读取";
+            this.ReadDataBase.UseVisualStyleBackColor = true;
+            this.ReadDataBase.Click += new System.EventHandler(this.ReadDataBase_Click);
+            // 
+            // SaveToDataBase
+            // 
+            this.SaveToDataBase.Location = new System.Drawing.Point(36, 354);
+            this.SaveToDataBase.Name = "SaveToDataBase";
+            this.SaveToDataBase.Size = new System.Drawing.Size(51, 23);
+            this.SaveToDataBase.TabIndex = 11;
+            this.SaveToDataBase.Text = "保存";
+            this.SaveToDataBase.UseVisualStyleBackColor = true;
+            this.SaveToDataBase.Click += new System.EventHandler(this.SaveToDataBase_Click);
+            // 
+            // ResetBtn
+            // 
+            this.ResetBtn.Location = new System.Drawing.Point(122, 291);
+            this.ResetBtn.Name = "ResetBtn";
+            this.ResetBtn.Size = new System.Drawing.Size(49, 24);
+            this.ResetBtn.TabIndex = 10;
+            this.ResetBtn.Text = "重置";
+            this.ResetBtn.UseVisualStyleBackColor = true;
+            this.ResetBtn.Click += new System.EventHandler(this.ResetBtn_Click);
+            // 
+            // ClearCanvas
+            // 
+            this.ClearCanvas.Location = new System.Drawing.Point(36, 291);
+            this.ClearCanvas.Name = "ClearCanvas";
+            this.ClearCanvas.Size = new System.Drawing.Size(51, 24);
+            this.ClearCanvas.TabIndex = 9;
+            this.ClearCanvas.Text = "清空";
+            this.ClearCanvas.UseVisualStyleBackColor = true;
+            this.ClearCanvas.Click += new System.EventHandler(this.ClearCanvas_Click);
             // 
             // label1
             // 
@@ -141,25 +193,47 @@
             this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
             this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
             // 
-            // ClearCanvas
+            // textBox1
             // 
-            this.ClearCanvas.Location = new System.Drawing.Point(36, 291);
-            this.ClearCanvas.Name = "ClearCanvas";
-            this.ClearCanvas.Size = new System.Drawing.Size(51, 24);
-            this.ClearCanvas.TabIndex = 9;
-            this.ClearCanvas.Text = "清空";
-            this.ClearCanvas.UseVisualStyleBackColor = true;
-            this.ClearCanvas.Click += new System.EventHandler(this.ClearCanvas_Click);
+            this.textBox1.Location = new System.Drawing.Point(86, 405);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 21);
+            this.textBox1.TabIndex = 13;
             // 
-            // ResetBtn
+            // label2
             // 
-            this.ResetBtn.Location = new System.Drawing.Point(122, 291);
-            this.ResetBtn.Name = "ResetBtn";
-            this.ResetBtn.Size = new System.Drawing.Size(49, 24);
-            this.ResetBtn.TabIndex = 10;
-            this.ResetBtn.Text = "重置";
-            this.ResetBtn.UseVisualStyleBackColor = true;
-            this.ResetBtn.Click += new System.EventHandler(this.ResetBtn_Click);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 408);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(77, 12);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "读取图层名称";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "所有",
+            "直线",
+            "折线",
+            "圆",
+            "矩形",
+            "椭圆",
+            "多边形"});
+            this.comboBox1.Location = new System.Drawing.Point(86, 447);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 20);
+            this.comboBox1.TabIndex = 15;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(21, 454);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 12);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "读取图形";
             // 
             // Form1
             // 
@@ -194,6 +268,12 @@
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Button ResetBtn;
         private System.Windows.Forms.Button ClearCanvas;
+        private System.Windows.Forms.Button SaveToDataBase;
+        private System.Windows.Forms.Button ReadDataBase;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

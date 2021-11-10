@@ -7,15 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using MultiStates.Tools;
-
+using MultiStates.DAL;
 
 namespace MultiStates
-    //多态演示程序，LAB，2012-11-02
+//多态演示程序，LAB，2012-11-02
 {
-    
     public partial class Form1 : Form
     {
-        int Drawstyle=0;//绘图方式
+        private int Drawstyle = 0;//绘图方式
+        private DatabaseAcess acess = new DatabaseAcess();
+        private string ReadGeometry = "All"; // 读取数据库图形类型
         // 绘制图形的颜色，画笔大小等选项信息
         private Options op = new Options()
         {
@@ -23,37 +24,42 @@ namespace MultiStates
             brushColor = Color.FromArgb(188, 0, 128, 0), // 画刷颜色
             penSize = 2 // 画笔大小
         };
+
         // 绘制工具
         private Tool _actionTool = null;
+
         private Tool actionTool
         {
             get => _actionTool ?? new NoneTool(op);
             set => _actionTool = value;
         }
-        private readonly Graphics pb; 
+
+        private readonly Graphics pb;
+
         public Form1()
         {
-            
             InitializeComponent();
             pb = pictureBox1.CreateGraphics();// 获取pictureBox1空间的绘制画布
-
         }
+
         /// <summary>
         /// 选择绘图方式
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-          private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             // 获取绘图方式
-            Drawstyle=this.comboBox2.SelectedIndex;
+            Drawstyle = this.comboBox2.SelectedIndex;
             // 创建相应的图形绘制工具
-            
-            
-            actionTool = CreateToolFactory.getDrawTool(Drawstyle,op);
-
+            actionTool = CreateToolFactory.getDrawTool(Drawstyle, op);
         }
-        private void pictureBox1_Paint(object sender, PaintEventArgs e) { }
+
+        private void pictureBox1_Paint(object sender, PaintEventArgs e)
+        {
+            LayerService.DrawLayer(pb);
+        }
+
         /// <summary>
         /// 鼠标左键按下时的操作
         /// </summary>
@@ -64,6 +70,7 @@ namespace MultiStates
             // 使用绘制工具构造并添加图形对像
             actionTool.onmousedown(e);
         }
+
         /// <summary>
         /// 鼠标左键松开时的操作
         /// </summary>
@@ -71,8 +78,8 @@ namespace MultiStates
         /// <param name="e"></param>
         private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
         {
-
         }
+
         /// <summary>
         /// 鼠标移动时的操作
         /// </summary>
@@ -93,7 +100,6 @@ namespace MultiStates
             buffered.Render(pb);
             buffered.Dispose();
             Mybuffer.Dispose();
-
         }
 
         /// <summary>
@@ -104,7 +110,9 @@ namespace MultiStates
         private void Form1_Load(object sender, EventArgs e)
         {
             this.comboBox2.SelectedIndex = 0;
+            this.comboBox1.SelectedIndex = 0;
         }
+
         /// <summary>
         /// 设置画笔颜色
         /// </summary>
@@ -115,6 +123,7 @@ namespace MultiStates
             colorDialog1.ShowDialog();
             op.penColor = colorDialog1.Color;
         }
+
         /// <summary>
         /// 设置画刷颜色
         /// </summary>
@@ -125,6 +134,7 @@ namespace MultiStates
             colorDialog1.ShowDialog();
             op.brushColor = colorDialog1.Color;
         }
+
         /// <summary>
         /// 设置画笔大小
         /// </summary>
@@ -141,7 +151,6 @@ namespace MultiStates
             {
                 MessageBox.Show("大小设置失败");
             }
-            
         }
 
         private void ClearCanvas_Click(object sender, EventArgs e)
@@ -155,6 +164,53 @@ namespace MultiStates
             op.penColor = Color.FromArgb(255, 0, 128, 0);
             op.brushColor = Color.FromArgb(188, 0, 128, 0);
             op.penSize = 2;
+        }
+
+        private void SaveToDataBase_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
+
+        private void ReadDataBase_Click(object sender, EventArgs e)
+        {
+            string sql = "select * from public.\"Geometry2D\"";
+            string sql2 = "select * from public.\"Geometry2D\" where geometrytype=" + ReadGeometry;
+            string ReadLayerName = textBox1.Text;
+            if (acess.Connect() == "Failure")
+            {
+                MessageBox.Show("连接数据库失败");
+                return;
+            }
+            GeometryInfoTable geoTable = ReadGeometry == "All" ? (ReadLayerName == "" ? acess.Query(sql) : acess.Query(sql + " where layer=\'" + ReadLayerName + "\'")) : (ReadLayerName == "" ? acess.Query(sql2) : acess.Query(sql2 + " and layer=\'" + ReadLayerName + "\'"));
+            LayerService.LoadTable(geoTable);
+            pictureBox1.Invalidate();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int selectGeo = comboBox1.SelectedIndex;
+            switch(selectGeo)
+            {
+                case 0:
+                    break;
+                case 1:
+                case 2:
+                    ReadGeometry = "\'polyline\'";
+                    break;
+                case 3:
+                    ReadGeometry = "\'circle\'";
+                    break;
+                case 4:
+                    ReadGeometry = "\'rectangle\'";
+                    break;
+                case 5:
+                    ReadGeometry = "\'Ellipse\'";
+                    break;
+                case 6:
+                    ReadGeometry = "\'polygon\'";
+                    break;
+            }
         }
     }
 }
